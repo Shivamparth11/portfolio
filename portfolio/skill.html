@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills | Shivam's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+      <style>
+          *{
+              margin: 0;
+              padding: 0;
+          }
+  
+          body{
+              background-color: #ffffff;
+              color: black;
+              font-family: "Poppins", sans-serif;
+          
+          }
+          nav{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              height: 50px;
+              background-color: lightgrey;
+          }
+          nav ul{
+              display: flex;
+              justify-content: center;
+          }
+          nav ul li{
+              list-style: none;
+              margin: 0 36px;
+          }
+          nav ul li a{
+              text-decoration: none;
+              color: black;
+          }
+          nav ul li a:hover{
+              color: grey;
+              font-size: 1.05rem;
+  
+          }
+          .left{
+              font-size: 1.5rem;
+          }
+          .first{
+              display: flex;
+              justify-content: space-around;
+              margin: 80px 0;
+          }
+          .first > div{
+              width: 30%;
+          }
+          .left a{
+              color: black;
+              text-decoration: none;
+          }
+          .skills {
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-content h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill {
+  background-color: #f0f0f0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.skill:hover {
+  transform: translateY(-10px);
+  background-color: #e0e0e0;
+}
+
+.skill h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+        </style>
+</head>
+<body>
+
+ 
+  <nav>
+    <div class="left"><a href="index.html">Shivam's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="" class="active">Skills</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="skills">
+    <div class="skills-content">
+      <h1>My Skills</h1>
+      <div class="skills-list">
+        <div class="skill">
+          <h3>Languages</h3>
+          <p>C++, Python, Java</p>
+        </div>
+        <div class="skill">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, ReactJS</p>
+        </div>
+        <div class="skill">
+          <h3>Database</h3>
+          <p>MariaDB, MySQL</p>
+        </div>
+        <div class="skill">
+          <h3>Tools</h3>
+          <p>Git, VS Code, Linux (Arch)</p>
+        </div>
+        <div class="skill">
+          <h3>Others</h3>
+          <p>Machine Learning (Basics), Competitive Programming</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
